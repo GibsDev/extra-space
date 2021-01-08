@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# extra-space_pro_micro-Arduino_Custom
+#
+DEF extra-space_pro_micro-Arduino_Custom U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "extra-space_pro_micro-Arduino_Custom" 0 -350 50 H V C CNN
+F2 "" 0 300 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+DRAW
+S -250 250 250 -300 0 1 0 N
+X LED 10 350 -250 100 L 50 50 1 1 P
+X SW4 6 -350 50 100 R 50 50 1 1 P
+X SW3 7 -350 -50 100 R 50 50 1 1 P
+X SW2 8 -350 -150 100 R 50 50 1 1 P
+X SW1 9 -350 -250 100 R 50 50 1 1 P
+X GND GND -350 200 100 R 50 50 1 1 w
+X VCC VCC 350 200 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

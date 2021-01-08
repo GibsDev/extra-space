@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Arduino_Custom)(type Legacy)(uri ${KIPRJMOD}/library/Arduino_Custom.lib)(options "")(descr ""))
+  (lib (name extra-space-rescue)(type Legacy)(uri ${KIPRJMOD}/extra-space-rescue.lib)(options "")(descr ""))
+)

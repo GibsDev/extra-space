@@ -1,0 +1,69 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Switch_Cherry_MX_CHERRY_RGB
+#
+DEF Switch_Cherry_MX_CHERRY_RGB CMXRGB 0 40 Y Y 1 F N
+F0 "CMXRGB" 0 50 50 H V C CNN
+F1 "Switch_Cherry_MX_CHERRY_RGB" 0 450 50 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+S -250 100 250 400 0 1 0 N
+X S1 1 -350 350 100 R 50 50 1 1 B
+X S2 2 350 350 100 L 50 50 1 1 W
+X VCC 3 -350 250 100 R 50 50 1 1 W
+X DOUT 4 350 250 100 L 50 50 1 1 O
+X DIN 5 -350 150 100 R 50 50 1 1 I
+X VDD 6 350 150 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# extra-space-rescue_extra-space_pro_micro-Arduino_Custom
+#
+DEF extra-space-rescue_extra-space_pro_micro-Arduino_Custom U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "extra-space-rescue_extra-space_pro_micro-Arduino_Custom" 0 -350 50 H V C CNN
+F2 "" 0 300 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+DRAW
+S -250 250 250 -300 0 1 0 N
+X LED 10 350 -250 100 L 50 50 1 1 P
+X SW4 6 -350 50 100 R 50 50 1 1 P
+X SW3 7 -350 -50 100 R 50 50 1 1 P
+X SW2 8 -350 -150 100 R 50 50 1 1 P
+X SW1 9 -350 -250 100 R 50 50 1 1 P
+X GND GND -350 200 100 R 50 50 1 1 w
+X VCC VCC 350 200 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
